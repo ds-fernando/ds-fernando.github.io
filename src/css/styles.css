@@ -13,10 +13,3 @@
 
 
 
-/* Contenido principal */
-main {
-  flex: 1; /* Permite que el contenido ocupe todo el espacio disponible */
-  margin: 0 auto; /* Centra el contenido */
-  max-width: 800px; /* Define un ancho máximo para el contenido */
-  padding: 20px; /* Espaciado interno del contenido */
-}
