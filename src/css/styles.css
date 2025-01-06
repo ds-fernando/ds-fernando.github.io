@@ -1,0 +1,22 @@
+.main-header {
+    height: 100px; /* Ajusta la altura del header según sea necesario */
+    background-color: white; /* Asegura que sea completamente blanco */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+  }
+
+
+
+/* Contenido principal */
+main {
+  flex: 1; /* Permite que el contenido ocupe todo el espacio disponible */
+  margin: 0 auto; /* Centra el contenido */
+  max-width: 800px; /* Define un ancho máximo para el contenido */
+  padding: 20px; /* Espaciado interno del contenido */
+}
