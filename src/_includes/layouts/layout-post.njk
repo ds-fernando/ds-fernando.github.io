@@ -8,10 +8,19 @@
 </head>
 <body>
     {% include "header.njk" %}
+
+  <div class="layout">
+    <div class="columns">
+      
+      <div class="column is-one-quarter">
+        {% include "nav.njk" %}
+      </div>
+
     <main>
         {{ content | safe }}
     </main>
-
+  
+  </div>
 
     {% include "footer.njk" %}
 

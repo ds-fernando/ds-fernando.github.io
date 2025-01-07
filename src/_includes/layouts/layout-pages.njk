@@ -13,23 +13,25 @@
 
 <body>
 
+
+  <div class="container">
+
     {% include "header.njk" %}
 
-  <div class="layout">
-    <div class="columns">
-      
-      <div class="column is-one-quarter">
-        {% include "nav.njk" %}
+    <div class="layout">
+      <div class="columns">
+        <div class="column is-one-quarter">
+          {% include "nav.njk" %}
+        </div>
+        <main>
+          {{ content | safe }}
+        </main>
       </div>
-
-    <main>
-        {{ content | safe }}
-    </main>
-  
-  </div>
+    </div>
 
     {% include "footer.njk" %}
+    
+  </div>
 
 
 </body>
-</html>

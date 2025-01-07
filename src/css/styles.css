@@ -13,3 +13,48 @@
 
 
 
+  .container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 0 20px; /* Márgenes internos para evitar que toque los bordes */
+  }
+  
+  /* Opcional: ajusta el ancho de la barra de navegación */
+  .menu {
+    margin: 20px 0; /* Agrega margen superior e inferior */
+  }
+
+
+   /*Hacer mas grande el titulo "Fernando Leon" */
+
+  .menu-label {
+    font-size: 2.5rem; /* Ajusta el tamaño según tu preferencia */
+  }
+  
+
+
+
+
+  /* Aseguramos que la página ocupe toda la altura */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Usamos Flexbox para el layout principal */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Esto asegura que el layout ocupe al menos toda la altura de la pantalla */
+}
+
+/* Hacemos que el contenido principal ocupe el espacio restante */
+main {
+  flex-grow: 1; /* Esto empuja el footer hacia el fondo */
+}
+
+/* Aquí personalizas el footer */
+footer {
+  padding: 20px;
+  text-align: center;
+}
