@@ -5,11 +5,16 @@ module.exports = function (eleventyConfig) {
   
     // Crear colección personalizada 'posts', ordenada por fecha descendente
     eleventyConfig.addCollection("posts", function (collectionApi) {
-      return collectionApi.getFilteredByGlob("src/blog/posts/**/*.md").sort((a, b) => {
-        return new Date(b.date) - new Date(a.date);
-      });
+      return collectionApi.getFilteredByGlob("src/blog/posts/**/*.md")
+        .sort((a, b) => new Date(b.date) - new Date(a.date)) // Ordenar por fecha
+        .slice(0, 3); // Seleccionar solo los primeros 3
     });
-  
+    
+    eleventyConfig.addCollection("allPosts", function (collectionApi) {
+      return collectionApi.getFilteredByGlob("src/blog/posts/**/*.md")
+        .sort((a, b) => new Date(b.date) - new Date(a.date)); // Solo ordenar por fecha sin limitar
+    });
+    
     return{
         dir:{
             input: "src",
