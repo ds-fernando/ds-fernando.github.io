@@ -114,3 +114,58 @@ footer {
     transform: translateY(0);
   }
 }
+
+.menu .menu-label {
+  font-size: 1.4rem !important;
+}
+
+
+
+
+/* Estilos para el botón del menú hamburguesa */
+.menu-toggle {
+  display: none; /* Oculto por defecto */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: auto; /* Coloca el botón de hamburguesa en la parte derecha */
+}
+
+.hamburger {
+  background-color: white;
+  width: 30px;
+  height: 3px;
+  margin: 3px 0;
+}
+
+/* Estilos para hacer que el menú sea responsive */
+@media screen and (max-width: 768px) {
+  /* Ocultar la lista de menú por defecto en pantallas pequeñas */
+  .menu-list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+
+  /* Mostrar el botón de hamburguesa en pantallas pequeñas */
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Estilo cuando el menú se muestra */
+  .menu-list.show {
+    display: block;
+  }
+}
