@@ -24,10 +24,11 @@ module.exports = function (eleventyConfig) {
         templateFormats: ['md', 'njk', 'html'],
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
-        dataTemplateEngine: 'njk', };
-
+        dataTemplateEngine: "njk",
+        // Agregar pathPrefix para GitHub Pages
+        pathPrefix: "/webpersonal-eleventy/", // Cambia "nombre-del-repositorio" por el nombre real de tu repo
+    };
 };
-
 
 
 
