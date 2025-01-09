@@ -58,3 +58,59 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+
+.header-with-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinea ambos elementos al inicio del contenedor */
+  gap: 10px; /* Añade un espacio uniforme entre el título y el botón */
+}
+
+.header-with-button h1 {
+  margin: 0;
+}
+
+.header-with-button .button {
+  margin-left: 0; /* Elimina el empuje hacia la derecha */
+}
+
+
+.article-list {
+  list-style: none; /* Quitar viñetas */
+  padding: 0;
+  margin: 0;
+}
+
+.article-list li {
+  padding: 10px 0; /* Espacio entre artículos */
+  border-bottom: 1px solid #e0e0e0; /* Línea divisoria */
+}
+
+.article-list li:last-child {
+  border-bottom: none; /* Quitar línea del último artículo */
+}
+
+.article-list a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem; /* Tamaño ligeramente mayor */
+}
+
+.article-list a:hover {
+  color: #007BFF; /* Cambiar color en hover */
+}
+
+.article-list li {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 0.5s ease-in-out forwards;
+  animation-delay: calc(0.1s * var(--i)); /* Retraso escalonado */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

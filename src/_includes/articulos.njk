@@ -1,7 +1,8 @@
-<h1 class="is-size-3">Artículos recientes</h1>
-
-
-<ul>
+<div class="header-with-button">
+  <h1 class="is-size-4">Artículos recientes</h1>
+  <a href="/blog/articulos" class="button">Ver todos</a>
+</div>
+<ul class="article-list">
   {% for post in collections.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.data.title }}</a>
@@ -12,4 +13,3 @@
 </ul>
 
 
-<a href="/blog/articulos" class="button">Ver todos</a>
