@@ -1,6 +1,6 @@
 <div class="header-with-button">
   <h1 class="is-size-4">Artículos recientes</h1>
-  <a href="{{ pathPrefix }}blog/articulos" class="button">Ver todos</a>
+  <a href="{{ '/blog/articulos' | url }}" class="button">Ver todos</a>
 </div>
 <ul class="article-list">
   {% for post in collections.posts %}
