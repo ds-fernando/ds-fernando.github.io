@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
         htmlTemplateEngine: 'njk',
         dataTemplateEngine: "njk",
         // Agregar pathPrefix para GitHub Pages
-        pathPrefix: "/webpersonal-eleventy/", // Cambia "nombre-del-repositorio" por el nombre real de tu repo
+        pathPrefix: "/webpersonal-eleventy/", 
     };
 };
 
