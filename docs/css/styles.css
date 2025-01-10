@@ -12,9 +12,13 @@
   }
 
 
-
+  p {
+    font-size: 20px; /* Cambia el tamaño de fuente a 18px */
+    line-height: 1.7; /* Ajusta la altura de línea para una mejor legibilidad */
+  }
+  
   .container {
-    max-width: 1200px; /* Ancho máximo del contenedor */
+    max-width: 1300px !important; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centra horizontalmente */
     padding: 0 20px; /* Márgenes internos para evitar que toque los bordes */
   }
@@ -32,6 +36,21 @@
   }
   
 
+
+   /*footer*/
+
+
+ /* Estilos para los enlaces normales */
+a {
+  text-decoration: none; /* Evita que los enlaces tengan subrayado por defecto */
+  color: inherit; /* Hereda el color del texto principal */
+}
+
+/* Estilos al pasar el ratón sobre el enlace */
+a:hover {
+  text-decoration: underline; /* Subraya el texto */
+  color: #0056b3; /* Un azul oscuro para hover */
+}
 
 
 
