@@ -111,7 +111,7 @@
   }
 
   .menu-list .close-btn {
-    display: none; /* Eliminar la X */
+    display: none; 
   }
 }
 
@@ -120,20 +120,23 @@
     display: none !important;
   }
 
-  /* Asegura que la X no se vea en pantallas grandes */
   .menu-list .close-btn {
     display: none !important;
   }
 }
 
 .menu-list a {
-  font-size: 18px;
-  padding: 10px 0;
+  font-size: 21px;
+  padding: 10px 20px;
   display: block;
+  text-align: left;
 }
 
 .menu-list {
   padding-top: 50px;
+}
+.menu-list a.active {
+  color: #2112f3;  /* Cambia el color del texto cuando está activo */
 }
 
 .menu-toggle {
@@ -144,7 +147,23 @@
   display: none;
 }
 
+/* Estilos para la transformación de las barras del menú */
+.menu-toggle.open .hamburger:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
+}
 
+.menu-toggle.open .hamburger:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open .hamburger:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+/* Ocultar las barras cuando el menú esté abierto */
+.menu-list.show ~ .menu-toggle .hamburger {
+  display: none;
+}
   /* ========================================
      Estilos de los párrafos
      ======================================== */
