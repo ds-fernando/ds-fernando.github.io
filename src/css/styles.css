@@ -62,10 +62,14 @@
   /* Estilos para el menú en pantallas pequeñas */
  /* Estilo para el botón del menú */
  .menu-toggle {
-  display: none; /* Oculta el botón por defecto */
+  display: none;
   cursor: pointer;
   background: none;
   border: none;
+  position: absolute; /* Para posicionarlo relativo al contenedor */
+  top: 20px; /* Ajusta este valor según la altura que desees */
+  right: 20px; /* Botón se alinea al lado derecho */
+  z-index: 1000; /* Asegura que esté encima del resto de elementos */
 }
 
 .menu-toggle .hamburger {
@@ -82,27 +86,23 @@
     display: block; /* Muestra el botón en pantallas pequeñas */
   }
 
-  /* Estilos del menú */
   .menu-list {
-    display: none; /* Inicialmente el menú está oculto */
-    list-style: none;
-    padding: 0;
-    position: fixed; /* Fijamos el menú en la pantalla */
+    position: fixed;
     top: 0;
-    right: 0; /* Lo posicionamos a la derecha */
-    width: 80%; /* El menú ocupará el 80% del ancho de la pantalla */
-    height: 100vh; /* Que ocupe toda la altura de la ventana */
-    background-color: white;
-    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.1);
-    transform: translateX(100%); /* El menú comienza fuera de la pantalla */
-    transition: transform 0.3s ease; /* Animación de deslizamiento */
+    right: 0; /* Asegura que el menú se desplace desde la derecha */
+    height: 100%;
+    width: 300px; /* Ajusta el ancho del menú */
+    background-color: #fff;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%); /* Fuera de la pantalla al lado derecho */
+    transition: transform 0.5s ease-in-out; /* Animación más suave */
   }
-
-  /* Muestra el menú cuando se activa */
+  
+  
   .menu-list.show {
-    transform: translateX(0); /* El menú se desliza a la vista */
-    display: block; /* Asegura que el menú se muestre */
+    transform: translateX(0) !important; /* Mueve el menú a la vista */
   }
+  
 
   /* Estilos para el botón de cierre "X" */
   .menu-list .close-btn {
