@@ -92,6 +92,7 @@
   p {
     font-size: 20px; /* Tamaño de la fuente para los párrafos */
     line-height: 1.7; /* Ajusta la altura de línea para mejorar la legibilidad */
+    color: black !important;
   }
   
   /* ========================================
@@ -182,11 +183,35 @@
   .description-project {
     font-size: 1.1rem; /* Tamaño de la descripción del proyecto */
     margin-left: 20px; /* Añade margen izquierdo a la descripción */
-    color: #777; /* Color gris para la descripción */
+    color: #777 !important; /* Color gris para la descripción */
     font-style: italic; /* Hace que la descripción esté en cursiva */
   }
   
   .project-item:hover .description-project {
-    color: #444; /* Cambia el color de la descripción al pasar el ratón */
+    color: #444 !important; /* Cambia el color de la descripción al pasar el ratón */
   }
   
+/* Estilo base para los enlaces sociales del index */
+.social-link {
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  transition: text-decoration 0.3s ease; /* Transición suave para el subrayado */
+}
+
+/* Estilo cuando se pasa el ratón sobre los enlaces específicos */
+.social-link:hover {
+  text-decoration: underline; /* Agrega el subrayado */
+  color: #333; /* Color del texto */
+}
+
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
+
+
+/* Fechas de articulos */
+
+.has-text-grey {
+  font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+  color: #6c757d; /* Si quieres ajustar el color también */
+}

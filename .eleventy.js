@@ -2,6 +2,9 @@ module.exports = function (eleventyConfig) {
     // Copiar archivos CSS y JS al directorio de salida
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/js");
+    eleventyConfig.addFilter("date", function(dateObj) {
+      return new Date(dateObj).toISOString().split('T')[0]; // Formato: YYYY-MM-DD
+    });
   
     // Crear colección personalizada 'posts', ordenada por fecha descendente
     eleventyConfig.addCollection("posts", function (collectionApi) {

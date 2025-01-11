@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>{{ title }} | Fernando's Website</title>
   <meta name="description" content="{{ description }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
 
 
@@ -24,23 +26,13 @@
           {% include "nav_posts.njk" %}
         </div>
         <main>
-          <h1 class="is-size-3">{{ title }}</h1>
-          <!-- Fecha de publicación -->
-          <br>
-
-          <p class="has-text-grey">{{ date | date("YYYY-MM-DD") }}</p>
-          <br>
-
           {{ content | safe }}
-
-
-          
         </main>
       </div>
     </div>
 
     {% include "footer.njk" %}
-    
+   <!-- <script src="{{ '/js/scripts.js' | url }}"></script>-->
   </div>
 
 
