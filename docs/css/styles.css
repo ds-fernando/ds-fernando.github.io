@@ -48,6 +48,7 @@
      ======================================== */
   .menu {
     margin: 20px 0; /* Añade márgenes arriba y abajo */
+    position: relative;
   }
   
   .menu-label {
@@ -60,8 +61,8 @@
   
   /* Estilos para el menú en pantallas pequeñas */
  /* Estilo para el botón del menú */
-.menu-toggle {
-  display: none; /* Oculta el botón del menú por defecto */
+ .menu-toggle {
+  display: none;
   cursor: pointer;
   background: none;
   border: none;
@@ -77,27 +78,37 @@
 
 /* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
-  /* Muestra el botón del menú en pantallas pequeñas */
   .menu-toggle {
     display: block;
   }
   
-  /* Oculta el menú por defecto en pantallas pequeñas */
   .menu-list {
     display: none;
     list-style: none;
     padding: 0;
+    position: fixed; /* Fijamos el menú en la pantalla */
+    top: 0;
+    right: 0; /* Lo posicionamos a la derecha */
+    width: 80%; /* El menú ocupará el 80% del ancho de la pantalla */
+    height: 100vh; /* Que ocupe toda la altura de la ventana */
+    background-color: white;
+    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%); /* El menú comienza fuera de la pantalla */
+    transition: transform 0.3s ease; /* Animación de deslizamiento */
   }
-  
+
   /* Muestra el menú cuando se activa */
   .menu-list.show {
-    display: block;
-    position: absolute; /* Hace que el menú flote sobre otros elementos */
-    top: 50px; /* Ajusta la posición */
-    left: 0;
-    background-color: white; /* Estilo de fondo */
-    width: 100%; /* El menú ocupará todo el ancho */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para un mejor contraste */
+    transform: translateX(0); /* El menú se desliza a la vista */
+  }
+
+  .menu-list .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
   }
 }
 
