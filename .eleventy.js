@@ -15,6 +15,15 @@ module.exports = function (eleventyConfig) {
         .sort((a, b) => new Date(b.date) - new Date(a.date)); // Solo ordenar por fecha sin limitar
     });
     
+    eleventyConfig.setBrowserSyncConfig({
+      server: {
+        baseDir: "docs",
+      },
+      serveStaticOptions: {
+        extensions: ["html"], // Habilitar rutas limpias
+      },
+    });
+    
     return{
         dir:{
             input: "src",
