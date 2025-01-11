@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout-pages.njk
-title: Segundo Articulo
+title: "Descubriendo el TDA: Datos Con Forma" 
 date: 2025-01-07
 ---
-# {{title}}
+<h1> {{title}} </h1>

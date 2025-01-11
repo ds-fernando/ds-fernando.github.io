@@ -1,216 +1,192 @@
-.main-header {
-    height: 100px; /* Ajusta la altura del header según sea necesario */
-    background-color: white; /* Asegura que sea completamente blanco */
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: black;
-    background-color: white;
-  }
-
-
-  p {
-    font-size: 20px; /* Cambia el tamaño de fuente a 18px */
-    line-height: 1.7; /* Ajusta la altura de línea para una mejor legibilidad */
+/* ========================================
+   Estilos generales
+   ======================================== */
+   html, body {
+    height: 100%; /* Asegura que la página ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el padding por defecto */
   }
   
-  .container {
-    max-width: 1300px !important; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centra horizontalmente */
-    padding: 0 20px; /* Márgenes internos para evitar que toque los bordes */
+  /* ========================================
+     Estilos de la estructura del layout
+     ======================================== */
+  .layout {
+    display: flex; /* Usa flexbox para la disposición de los elementos */
+    flex-direction: column; /* Disposición en columna */
+    min-height: 100vh; /* Asegura que el layout ocupe al menos toda la altura de la pantalla */
   }
   
-  /* Opcional: ajusta el ancho de la barra de navegación */
+  main {
+    flex-grow: 1; /* Hace que el contenido principal ocupe el espacio restante */
+  }
+  
+  /* ========================================
+     Estilos de la cabecera (header)
+     ======================================== */
+  .main-header {
+    height: 100px; /* Ajusta la altura del encabezado */
+    background-color: white; /* Asegura que el fondo sea blanco */
+  }
+  
+  .header-with-button {
+    display: flex; /* Usa flexbox para alinear los elementos dentro del encabezado */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    justify-content: flex-start; /* Alinea los elementos al inicio */
+    gap: 10px; /* Añade un espacio uniforme entre los elementos */
+  }
+  
+  .header-with-button h1 {
+    margin: 0; /* Elimina el margen por defecto del título */
+  }
+  
+  .header-with-button .button {
+    margin-left: 0; /* Elimina el margen izquierdo del botón */
+  }
+  
+  /* ========================================
+     Estilos de la navegación (menú)
+     ======================================== */
   .menu {
-    margin: 20px 0; /* Agrega margen superior e inferior */
-  }
-
-
-   /*Hacer mas grande el titulo "Fernando Leon" */
-
-  .menu-label {
-    font-size: 2.5rem; /* Ajusta el tamaño según tu preferencia */
+    margin: 20px 0; /* Añade márgenes arriba y abajo */
   }
   
-
-
-   /*footer*/
-
-
- /* Estilos para los enlaces normales */
-a {
-  text-decoration: none; /* Evita que los enlaces tengan subrayado por defecto */
-  color: inherit; /* Hereda el color del texto principal */
-}
-
-/* Estilos al pasar el ratón sobre el enlace */
-a:hover {
-  text-decoration: underline; /* Subraya el texto */
-  color: #0056b3; /* Un azul oscuro para hover */
-}
-
-
-
-  /* Aseguramos que la página ocupe toda la altura */
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-/* Usamos Flexbox para el layout principal */
-.layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Esto asegura que el layout ocupe al menos toda la altura de la pantalla */
-}
-
-/* Hacemos que el contenido principal ocupe el espacio restante */
-main {
-  flex-grow: 1; /* Esto empuja el footer hacia el fondo */
-}
-
-/* Aquí personalizas el footer */
-footer {
-  padding: 20px;
-  text-align: center;
-}
-
-
-.header-with-button {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; /* Alinea ambos elementos al inicio del contenedor */
-  gap: 10px; /* Añade un espacio uniforme entre el título y el botón */
-}
-
-.header-with-button h1 {
-  margin: 0;
-}
-
-.header-with-button .button {
-  margin-left: 0; /* Elimina el empuje hacia la derecha */
-}
-
-
-.article-list {
-  list-style: none; /* Quitar viñetas */
-  padding: 0;
-  margin: 0;
-}
-
-.article-list li {
-  padding: 10px 0; /* Espacio entre artículos */
-  border-bottom: 1px solid #e0e0e0; /* Línea divisoria */
-}
-
-.article-list li:last-child {
-  border-bottom: none; /* Quitar línea del último artículo */
-}
-
-.article-list a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.1rem; /* Tamaño ligeramente mayor */
-}
-
-.article-list a:hover {
-  color: #007BFF; /* Cambiar color en hover */
-}
-
-.article-list li {
-  opacity: 0;
-  transform: translateY(10px);
-  animation: fadeIn 0.5s ease-in-out forwards;
-  animation-delay: calc(0.1s * var(--i)); /* Retraso escalonado */
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  .menu-label {
+    font-size: 2.5rem; /* Ajusta el tamaño de la fuente del título del menú */
   }
-}
-
-.menu .menu-label {
-  font-size: 1.4rem !important;
-}
-
-
-
-
-/* Estilos base para el menú */
-.menu-toggle {
-  display: none; /* Oculto por defecto */
-  cursor: pointer;
-  background: none;
-  border: none;
-}
-
-.menu-toggle .hamburger {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px 0;
-  background-color: #333; /* Color de las líneas */
-}
-
-/* Mostrar el botón en pantallas pequeñas */
-@media (max-width: 768px) {
+  
+  .menu .menu-label {
+    font-size: 1.4rem !important; /* Tamaño de fuente para el menú, asegurando que se aplique */
+  }
+  
+  /* Estilos para el menú en pantallas pequeñas */
   .menu-toggle {
-    display: block; /* Visible solo en dispositivos móviles */
+    display: none; /* Oculta el botón del menú por defecto */
+    cursor: pointer; /* Cambia el cursor al hacer hover sobre el botón */
+    background: none; /* Elimina el fondo */
+    border: none; /* Elimina el borde */
   }
-  .menu-list {
-    display: none; /* Ocultar el menú inicialmente */
+  
+  .menu-toggle .hamburger {
+    display: block; /* Muestra las líneas del menú en forma de "hamburguesa" */
+    width: 25px; /* Ancho de las líneas */
+    height: 3px; /* Alto de las líneas */
+    margin: 5px 0; /* Espaciado entre las líneas */
+    background-color: #333; /* Color de las líneas */
   }
-  .menu-list.show {
-    display: block; /* Mostrar el menú al activar el botón */
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block; /* Muestra el botón del menú en pantallas pequeñas */
+    }
+    .menu-list {
+      display: none; /* Oculta el menú en pantallas pequeñas */
+    }
+    .menu-list.show {
+      display: block; /* Muestra el menú cuando se activa */
+    }
   }
-}
-
-
-
-
-
-.projects-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.project-item {
-  margin-bottom: 2rem;
-  padding: 15px;
-}
-
-.title-project {
-  font-size: 1.4rem;
-  color: #333;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.title-project:hover {
-  color: #0077cc;
-  transform: translateX(5px); /* Movimiento sutil al pasar el ratón */
-}
-
-.icon-project {
-  font-size: 1.4rem;
-}
-
-.description-project {
-  font-size: 1.1rem;
-  margin-left: 20px;
-  color: #777;
-  font-style: italic;
-}
-
-.project-item:hover .description-project {
-  color: #444;
-}
+  
+  /* ========================================
+     Estilos de los párrafos
+     ======================================== */
+  p {
+    font-size: 20px; /* Tamaño de la fuente para los párrafos */
+    line-height: 1.7; /* Ajusta la altura de línea para mejorar la legibilidad */
+  }
+  
+  /* ========================================
+     Contenedor principal (container)
+     ======================================== */
+  .container {
+    max-width: 1300px !important; /* Establece un ancho máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0 20px; /* Añade márgenes internos para evitar que el contenido toque los bordes */
+  }
+  
+  /* ========================================
+     Estilos de la lista de artículos
+     ======================================== */
+  .article-list {
+    list-style: none; /* Elimina las viñetas de la lista */
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina el margen */
+  }
+  
+  .article-list li {
+    padding: 10px 0; /* Añade espacio entre artículos */
+    border-bottom: 1px solid #e0e0e0; /* Añade una línea divisoria entre los artículos */
+  }
+  
+  .article-list li:last-child {
+    border-bottom: none; /* Elimina la línea divisoria del último artículo */
+  }
+  
+  .article-list a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #333; /* Color del texto de los enlaces */
+    font-size: 1.1rem; /* Tamaño de fuente ligeramente mayor */
+  }
+  
+  .article-list a:hover {
+    color: #007BFF; /* Cambia el color al pasar el ratón por encima */
+  }
+  
+  /* Animación de entrada para los artículos */
+  .article-list li {
+    opacity: 0; /* Comienza invisible */
+    transform: translateY(10px); /* Empuja los artículos hacia abajo */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Aplica la animación de fadeIn */
+    animation-delay: calc(0.1s * var(--i)); /* Retrasa la animación de manera escalonada */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* Hace que el artículo sea visible */
+      transform: translateY(0); /* Restaura la posición del artículo */
+    }
+  }
+  
+  /* ========================================
+     Estilos de la lista de proyectos
+     ======================================== */
+  .projects-list {
+    list-style-type: none; /* Elimina las viñetas de la lista de proyectos */
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina el margen */
+  }
+  
+  .project-item {
+    margin-bottom: 2rem; /* Añade espacio debajo de cada proyecto */
+    padding: 15px; /* Añade padding a los proyectos */
+  }
+  
+  .title-project {
+    font-size: 1.4rem; /* Tamaño de fuente para los títulos de los proyectos */
+    color: #333; /* Color del texto */
+    font-weight: 600; /* Pone el título en negrita */
+    display: flex; /* Usa flexbox para la disposición del título y el icono */
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espacio entre el título y el icono */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transiciones suaves para color y transformación */
+  }
+  
+  .title-project:hover {
+    color: #0077cc; /* Cambia el color del título al pasar el ratón */
+    transform: translateX(5px); /* Mueve el título ligeramente hacia la derecha */
+  }
+  
+  .icon-project {
+    font-size: 1.4rem; /* Tamaño del icono de los proyectos */
+  }
+  
+  .description-project {
+    font-size: 1.1rem; /* Tamaño de la descripción del proyecto */
+    margin-left: 20px; /* Añade margen izquierdo a la descripción */
+    color: #777; /* Color gris para la descripción */
+    font-style: italic; /* Hace que la descripción esté en cursiva */
+  }
+  
+  .project-item:hover .description-project {
+    color: #444; /* Cambia el color de la descripción al pasar el ratón */
+  }
+  
