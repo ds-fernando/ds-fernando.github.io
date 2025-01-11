@@ -66,10 +66,10 @@
   cursor: pointer;
   background: none;
   border: none;
-  position: absolute; /* Para posicionarlo relativo al contenedor */
-  top: 20px; /* Ajusta este valor según la altura que desees */
-  right: 20px; /* Botón se alinea al lado derecho */
-  z-index: 1000; /* Asegura que esté encima del resto de elementos */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .menu-toggle .hamburger {
@@ -80,31 +80,27 @@
   background-color: #333;
 }
 
-/* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block; /* Muestra el botón en pantallas pequeñas */
+    display: block;
   }
 
   .menu-list {
     position: fixed;
     top: 0;
-    right: 0; /* Asegura que el menú se desplace desde la derecha */
+    right: 0;
     height: 100%;
-    width: 300px; /* Ajusta el ancho del menú */
+    width: 300px;
     background-color: #fff;
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
-    transform: translateX(100%); /* Fuera de la pantalla al lado derecho */
-    transition: transform 0.5s ease-in-out; /* Animación más suave */
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
   }
-  
-  
-  .menu-list.show {
-    transform: translateX(0) !important; /* Mueve el menú a la vista */
-  }
-  
 
-  /* Estilos para el botón de cierre "X" */
+  .menu-list.show {
+    transform: translateX(0) !important;
+  }
+
   .menu-list .close-btn {
     position: absolute;
     top: 20px;
@@ -113,7 +109,42 @@
     cursor: pointer;
     color: #333;
   }
+
+  .menu-list .close-btn {
+    display: none; /* Eliminar la X */
+  }
 }
+
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none !important;
+  }
+
+  /* Asegura que la X no se vea en pantallas grandes */
+  .menu-list .close-btn {
+    display: none !important;
+  }
+}
+
+.menu-list a {
+  font-size: 18px;
+  padding: 10px 0;
+  display: block;
+}
+
+.menu-list {
+  padding-top: 50px;
+}
+
+.menu-toggle {
+  z-index: 1000;
+}
+/* Ocultar las barras de la hamburguesa cuando el menú esté abierto */
+.menu-list.show ~ .menu-toggle .hamburger {
+  display: none;
+}
+
+
   /* ========================================
      Estilos de los párrafos
      ======================================== */
