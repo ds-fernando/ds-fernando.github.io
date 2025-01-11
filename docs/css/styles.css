@@ -59,33 +59,48 @@
   }
   
   /* Estilos para el menú en pantallas pequeñas */
+ /* Estilo para el botón del menú */
+.menu-toggle {
+  display: none; /* Oculta el botón del menú por defecto */
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.menu-toggle .hamburger {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: #333;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  /* Muestra el botón del menú en pantallas pequeñas */
   .menu-toggle {
-    display: none; /* Oculta el botón del menú por defecto */
-    cursor: pointer; /* Cambia el cursor al hacer hover sobre el botón */
-    background: none; /* Elimina el fondo */
-    border: none; /* Elimina el borde */
+    display: block;
   }
   
-  .menu-toggle .hamburger {
-    display: block; /* Muestra las líneas del menú en forma de "hamburguesa" */
-    width: 25px; /* Ancho de las líneas */
-    height: 3px; /* Alto de las líneas */
-    margin: 5px 0; /* Espaciado entre las líneas */
-    background-color: #333; /* Color de las líneas */
+  /* Oculta el menú por defecto en pantallas pequeñas */
+  .menu-list {
+    display: none;
+    list-style: none;
+    padding: 0;
   }
   
-  @media (max-width: 768px) {
-    .menu-toggle {
-      display: block; /* Muestra el botón del menú en pantallas pequeñas */
-    }
-    .menu-list {
-      display: none; /* Oculta el menú en pantallas pequeñas */
-    }
-    .menu-list.show {
-      display: block; /* Muestra el menú cuando se activa */
-    }
+  /* Muestra el menú cuando se activa */
+  .menu-list.show {
+    display: block;
+    position: absolute; /* Hace que el menú flote sobre otros elementos */
+    top: 50px; /* Ajusta la posición */
+    left: 0;
+    background-color: white; /* Estilo de fondo */
+    width: 100%; /* El menú ocupará todo el ancho */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para un mejor contraste */
   }
-  
+}
+
   /* ========================================
      Estilos de los párrafos
      ======================================== */
