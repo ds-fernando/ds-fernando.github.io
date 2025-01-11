@@ -5,7 +5,7 @@ const closeBtn = document.querySelector('.close-btn');
 
 // Añadimos un evento al botón para alternar la clase 'show' en el menú
 menuToggle.addEventListener('click', () => {
-  menuList.classList.toggle('show');
+  menuList.classList.add('show');
 });
 
 // Añadimos un evento al botón de cierre para ocultar el menú

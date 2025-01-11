@@ -62,7 +62,7 @@
   /* Estilos para el menú en pantallas pequeñas */
  /* Estilo para el botón del menú */
  .menu-toggle {
-  display: none;
+  display: none; /* Oculta el botón por defecto */
   cursor: pointer;
   background: none;
   border: none;
@@ -79,11 +79,12 @@
 /* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block;
+    display: block; /* Muestra el botón en pantallas pequeñas */
   }
-  
+
+  /* Estilos del menú */
   .menu-list {
-    display: none;
+    display: none; /* Inicialmente el menú está oculto */
     list-style: none;
     padding: 0;
     position: fixed; /* Fijamos el menú en la pantalla */
@@ -100,8 +101,10 @@
   /* Muestra el menú cuando se activa */
   .menu-list.show {
     transform: translateX(0); /* El menú se desliza a la vista */
+    display: block; /* Asegura que el menú se muestre */
   }
 
+  /* Estilos para el botón de cierre "X" */
   .menu-list .close-btn {
     position: absolute;
     top: 20px;
@@ -111,7 +114,6 @@
     color: #333;
   }
 }
-
   /* ========================================
      Estilos de los párrafos
      ======================================== */
