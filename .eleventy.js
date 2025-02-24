@@ -25,7 +25,7 @@ module.exports = function (eleventyConfig) {
       serveStaticOptions: {
         extensions: ["html"], // Habilitar rutas limpias
       },
-    });
+    })
     
     return{
         dir:{
