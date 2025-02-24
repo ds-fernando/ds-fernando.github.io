@@ -321,3 +321,11 @@ footer {
   font-size: inherit !important;
   display: list-item !important; /* Asegura que los elementos sean tratados como ítems de lista */
 }
+
+.personal-story-final {
+  background-color: #f5f5f5; /* Color de fondo suave */
+  border-left: 5px solid #0077b6; /* Borde lateral llamativo */
+  padding: 15px;
+  font-style: italic;
+  margin: 20px 0;
+}
