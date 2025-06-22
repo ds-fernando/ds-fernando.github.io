@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
-  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
-  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4J1GFZMPF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-</head>
+      gtag('config', 'G-C4J1GFZMPF');
+    </script>
 
-<body>
+  </head>
 
+  <body>
 
-  <div class="container">
+    <div class="container">
 
-    {% include "header.njk" %}
+      {% include "header.njk" %}
 
-    <div class="layout">
-      <div class="columns">
-        <div class="column is-one-quarter">
-          {% include "nav_posts.njk" %}
+      <div class="layout">
+        <div class="columns">
+          <div class="column is-one-quarter">
+            {% include "nav_posts.njk" %}
+          </div>
+          <main>
+            <h1 class="is-size-3">{{ title }}</h1>
+            <!-- Fecha de publicación -->
+            <br>
+
+            <p class="has-text-grey">{{ date | date("YYYY-MM-DD") }}</p>
+            <br>
+
+            {{ content | safe }}
+
+          </main>
         </div>
-        <main>
-          <h1 class="is-size-3">{{ title }}</h1>
-          <!-- Fecha de publicación -->
-          <br>
-
-          <p class="has-text-grey">{{ date | date("YYYY-MM-DD") }}</p>
-          <br>
-
-          {{ content | safe }}
-
-
-          
-        </main>
       </div>
+
+      {% include "footer.njk" %}
+
     </div>
 
-    {% include "footer.njk" %}
-    
-  </div>
+    <script src="{{ '/js/scripts.js' | url }}"></script>
 
-
-  <script src="{{ '/js/scripts.js' | url }}"></script>
-
-</body>
+  </body>
