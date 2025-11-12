@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout-post.njk
-title: Mi primer artículo
+title: Sobre la importancia de escribir
 date: 2025-01-06
 permalink: /blog/posts/articulo1/
 ---
