@@ -3,12 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre el emprendimiento tecnológico como alternativa al desarrollo social | Fernando's Website</title>
+    <title>Sobre el emprendimiento tecnológico como alternativa al desarrollo social</title>
     <meta name="description" content="">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4J1GFZMPF"></script>
@@ -18,16 +16,12 @@
         dataLayer.push(arguments);
       }
       gtag('js', new Date());
-
       gtag('config', 'G-C4J1GFZMPF');
     </script>
-
   </head>
 
   <body>
-
     <div class="container">
-
       <header class="main-header"></header>
 
 
@@ -37,17 +31,30 @@
             <div class="menu">
   <p class="menu-label">Fernando León</p>
 
+  <!-- Botón de menú hamburguesa -->
+  <button class="menu-toggle" aria-label="Abrir menú">
+    <span class="hamburger"></span>
+    <span class="hamburger"></span>
+    <span class="hamburger"></span>
+  </button>
 
-  <!-- Menú (por defecto visible en pantallas grandes) -->
+  <!-- Menú desplegable -->
   <ul class="menu-list">
-    <li><a href="/">Inicio</a></li>
-    <li><a href="/#acerca">Acerca</a></li>
-    <li><a href="/#articulos">Artículos</a></li>
+    <li><a href="/index">Inicio</a></li>
+    <li><a href="/acerca">Acerca</a></li>
+    <li><a href="/blog/articulos">Articulos</a></li>
+
+    <!-- Botón de cierre -->
+    <li><span class="close-btn">&times;</span></li>
   </ul>
 </div>
 
           </div>
-          <main>
+          <main class="column">
+            <!-- ← AGREGAR class="column" -->
+            <h1 class="title is-size-3">Sobre el emprendimiento tecnológico como alternativa al desarrollo social</h1>
+            <p class="has-text-grey">2025-01-08</p>
+            <br>
             <p>Vivimos y crecimos, sobre todo los <strong>latinoamericanos</strong>, en contextos donde prima la <strong>desigualdad social</strong>.<br>
 La falta de acceso a empleo se ha vuelto la norma y, por ende, las condiciones de vida en muchas zonas de nuestra región se ven profundamente afectadas.<br>
 Esto, junto con el hecho de que en varias partes de nuestra región el conflicto armado —ya sea con guerrillas, grupos paramilitares, narcotraficantes (o todos al tiempo)— es la cotidianidad para muchos.</p>
@@ -102,4 +109,6 @@ Y una de las propuestas que más me ha llamado la atención es la de <strong>Cam
 
     </div>
 
+    <script src="/js/scripts.js"></script>
   </body>
+</html>

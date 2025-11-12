@@ -1,5 +1,5 @@
 ---
-layout: layouts/layout-pages.njk
+layout: layouts/layout-post.njk
 title: "Sobre el emprendimiento tecnológico como alternativa al desarrollo social"
 date: 2025-01-08
 ---
