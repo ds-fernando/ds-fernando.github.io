@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout-post.njk
-title: Sobre la importancia de escribir
+title: "Sobre la importancia de escribir"
 date: 2025-01-06
 ---
 

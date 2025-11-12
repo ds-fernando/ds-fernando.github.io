@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout-post.njk
-title: "Descubriendo el TDA: Datos Con Forma" 
+title: "Descubriendo el TDA: Datos Con forma"
 date: 2025-01-07
 ---
 
@@ -17,4 +17,3 @@ Este enfoque tiene una amplia gama de aplicaciones, desde la detección de tipos
 Aunque los resultados matemáticos que sustentan al TDA, como la Topología Algebraica y en particular la **Homología Simplicial**, pueden parecer complejos, los métodos y algoritmos que ofrece son útiles tanto para matemáticos como para no matemáticos. Además, existen librerías en diferentes lenguajes de programación, como Python o C++, que facilitan la implementación de estos algoritmos y ayudan a comprender algunos de los conceptos de la teoría matemática.
 
 Algunos de estas librerías son: GUDHI, Dionysus o Giotto en Python.
-

@@ -1,6 +1,6 @@
 ---
-layout: layouts/layout-pages.njk
-title: El Poder de lo Esencial en los Negocios
+layout: layouts/layout-post.njk
+title: "El poder de lo esencial en los negocios"
 date: 2025-01-09
 ---
 
