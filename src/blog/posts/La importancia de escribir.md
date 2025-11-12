@@ -2,7 +2,6 @@
 layout: layouts/layout-post.njk
 title: Sobre la importancia de escribir
 date: 2025-01-06
-permalink: /blog/posts/articulo1/
 ---
 
 El escribir es un acto revolucionario contra la cultura en la que vivimos inmersos.

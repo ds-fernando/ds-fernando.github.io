@@ -1,10 +1,8 @@
 ---
 layout: layouts/layout-pages.njk
-title: Sobre el emprendimiento tecnologico Como alternativa al desarrollo social.
+title: Sobre el emprendimiento tecnológico como alternativa al desarrollo social.
 date: 2025-01-08
 ---
-
-# {{title}}
 
 Vivimos y crecimos, sobre todo los **latinoamericanos**, en contextos donde prima la **desigualdad social**.  
 La falta de acceso a empleo se ha vuelto la norma y, por ende, las condiciones de vida en muchas zonas de nuestra región se ven profundamente afectadas.  
