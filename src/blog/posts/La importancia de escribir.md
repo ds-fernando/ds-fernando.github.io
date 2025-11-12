@@ -5,8 +5,6 @@ date: 2025-01-06
 permalink: /blog/posts/articulo1/
 ---
 
-# {{title}}
-
 El escribir es un acto revolucionario contra la cultura en la que vivimos inmersos.
 
 La cultura en la que vivimos, la cultura de lo rapido, lo facil, lo inmediato, lo efimero, lo liquido. El consumir contenido se ha vuelto en un acto rayando lo adictivo.
