@@ -12,7 +12,7 @@ La **desigualdad social**, la **pobreza**, el **narcotráfico** y el **conflicto
 Y aunque en las últimas décadas ha habido avances específicos contra el narco y el conflicto armado, aun así seguimos siendo una de las regiones con mayor desigualdad social y pobreza del mundo.
 
 Uno de los argumentos que se da, en desconocimiento de la realidad, es la falta de acceso a la educación o la educación de baja calidad.  
-Para esto me remito a lo que dijo **Héctor Abad Faciolince**, calcado en las memorias escritas por su hijo en el libro póstumo _El olvido que seremos_:
+Para esto me remito a lo que dijo **Héctor Abad Gomez**, calcado en las memorias escritas por su hijo en el libro _El olvido que seremos_:
 
 > “Pobres muchachos —decía—, ni siquiera tienen para el almuerzo; y con hambre es imposible estudiar.”
 
