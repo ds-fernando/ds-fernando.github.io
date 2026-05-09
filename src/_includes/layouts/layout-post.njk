@@ -46,6 +46,18 @@
               <hr>
 
               {{ content | safe }}
+
+              {% if references %}
+                <hr>
+                <section>
+                  <h2 class="title is-5">Referencias</h2>
+                  <ul>
+                    {% for ref in references %}
+                      <li>{{ ref | safe }}</li>
+                    {% endfor %}
+                  </ul>
+                </section>
+              {% endif %}
             </main>
           </div>
 

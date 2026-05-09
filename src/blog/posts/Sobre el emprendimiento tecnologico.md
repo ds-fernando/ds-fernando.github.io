@@ -2,6 +2,12 @@
 layout: layouts/layout-post.njk
 title: "Sobre el emprendimiento tecnológico como alternativa al desarrollo social"
 date: 2025-01-08
+
+references:
+  - "Sivers, D. (2011). <em>Anything You Want</em>. Do You Zoom."
+  - '<a href="https://sivers.org" target="_blank">sivers.org</a>'
+---
+
 ---
 
 Vivimos y crecimos, sobre todo los **latinoamericanos**, en contextos donde prima la **desigualdad social**.  
