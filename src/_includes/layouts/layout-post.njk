@@ -38,8 +38,9 @@
               <h1 class="title is-3">{{ title }}</h1>
               <p class="has-text-grey">
   Publicado: {{ date | date }}
-                {% if lastModified %}
-    &nbsp;·&nbsp; Actualizado: {{ lastModified | date }}
+                {% set modified = page.inputPath | lastModified %}
+                {% if modified and modified != (date | date) %}
+    &nbsp;·&nbsp; Actualizado: {{ modified }}
                 {% endif %}
               </p>
               <hr>
