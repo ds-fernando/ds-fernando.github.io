@@ -29,12 +29,13 @@
           <div class="column is-one-quarter">
             {% include "nav_posts.njk" %}
           </div>
-          <main class="column">
-            <!-- ← AGREGAR class="column" -->
+          <main class="column is-8 is-offset-2">
             <h1 class="title is-size-3">{{ title }}</h1>
             <p class="has-text-grey">{{ date | date("YYYY-MM-DD") }}</p>
-            <br>
-            {{ content | safe }}
+
+            <div class="content is-medium">
+              {{ content | safe }}
+            </div>
           </main>
         </div>
       </div>
