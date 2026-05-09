@@ -8,8 +8,6 @@ references:
   - '<a href="https://sivers.org" target="_blank">sivers.org</a>'
 ---
 
----
-
 Vivimos y crecimos, sobre todo los **latinoamericanos**, en contextos donde prima la **desigualdad social**.  
 La falta de acceso a empleo se ha vuelto la norma y, por ende, las condiciones de vida en muchas zonas de nuestra región se ven profundamente afectadas.  
 Esto, junto con el hecho de que en varias partes de nuestra región el conflicto armado —ya sea con guerrillas, grupos paramilitares, narcotraficantes o pandillas (o todos al tiempo)— es la cotidianidad para muchos.
