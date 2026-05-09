@@ -2,6 +2,11 @@
 layout: layouts/layout-post.njk
 title: "El poder de lo esencial en los negocios"
 date: 2025-01-09
+references:
+  - text: "Sivers, D. — Anything You Want"
+    url: "https://sivers.org/book/anything-you-want"
+  - text: "CD Baby en Wikipedia"
+    url: "https://en.wikipedia.org/wiki/CD_Baby"
 ---
 
 > “Todos necesitamos un lugar para jugar. Los niños necesitan parques infantiles y areneros. Los músicos necesitan un instrumento. Los científicos locos necesitan laboratorios. ¿Los que tenemos ideas de negocio? Necesitamos empresas. No por el dinero, sino porque es nuestro lugar para experimentar, crear y convertir los pensamientos en realidad. Tenemos que perseguir nuestra motivación intrínseca.”
