@@ -6,23 +6,23 @@ date: 2025-01-08
 
 Vivimos y crecimos, sobre todo los **latinoamericanos**, en contextos donde prima la **desigualdad social**.  
 La falta de acceso a empleo se ha vuelto la norma y, por ende, las condiciones de vida en muchas zonas de nuestra región se ven profundamente afectadas.  
-Esto, junto con el hecho de que en varias partes de nuestra región el conflicto armado —ya sea con guerrillas, grupos paramilitares, narcotraficantes (o todos al tiempo)— es la cotidianidad para muchos.
+Esto, junto con el hecho de que en varias partes de nuestra región el conflicto armado —ya sea con guerrillas, grupos paramilitares, narcotraficantes o pandillas (o todos al tiempo)— es la cotidianidad para muchos.
 
-La **desigualdad social**, la **pobreza**, el **narcotráfico** y el **conflicto interno** son problemáticas que acarreamos desde hace muchos años como región, problemas que los gobiernos han intentado mitigar junto con la ayuda de aliados extranjeros (Estados Unidos).  
-Y aunque en las últimas décadas ha habido avances específicos contra el narco y el conflicto armado, aun así seguimos siendo una de las regiones con mayor desigualdad social y pobreza del mundo.
+La **desigualdad social**, la **pobreza**, el **narcotráfico** y el **conflicto interno** son problemáticas que acarreamos desde hace muchas decadas como región, y aunque en las últimas décadas ha habido avances específicos contra el narco y el conflicto armado, aun así seguimos siendo una de las regiones con mayor corrupción, desigualdad social y pobreza del mundo.
 
-Uno de los argumentos que se da, en desconocimiento de la realidad, es la falta de acceso a la educación o la educación de baja calidad.  
+Uno de los argumentos que se da, en desconocimiento de la realidad, es la falta de acceso a la educación o la educación de baja calidad.
 Para esto me remito a lo que dijo **Héctor Abad Gomez**, calcado en las memorias escritas por su hijo en el libro _El olvido que seremos_:
 
 > “Pobres muchachos —decía—, ni siquiera tienen para el almuerzo; y con hambre es imposible estudiar.”
 
 El **hambre** desplaza cualquier otra cosa a segundo plano, así que hasta que no solucionemos el hambre, va a ser difícil abordar el resto de problemas.
+-Cabe aclarar que aun así, la inversión en educación es determinante e imprescindible-
 
 ---
 
 Por eso, el **acceso a trabajo digno** es tan importante.  
-Uno de los problemas que se tiene gracias a la cultura del narcotráfico, con tan profundas raíces en nuestra sociedad, es que hay un montón de gente trabajando directa o indirectamente en alguno de los procesos que conlleva el narcotráfico: producción, distribución, grupos armados, etc.  
-Y precisamente, en muchos casos, la falta de oportunidades laborales, sumada al hambre que golpea a los hogares, deja como única salida la vinculación al narcotráfico.
+Uno de los problemas que se tiene gracias a la cultura del narcotráfico, con tan profundas raíces en nuestra sociedad, es que hay un montón de gente trabajando directa o indirectamente en alguno de los procesos que conlleva el narcotráfico: producción, distribución, grupos armados que vigilan y/o comercializan, microtrafico, etc.  
+Y precisamente, en muchos casos, la falta de oportunidades laborales, sumada al hambre que golpea a los hogares, deja como única salida la vinculación al narcotráfico o grupos armados.
 
 ---
 
@@ -34,7 +34,7 @@ Es precisamente este interés, junto con las inquietudes que ya he mencionado, l
 
 ---
 
-Ahora bien, la **riqueza** de una región no garantiza necesariamente una mejora en la calidad de vida de sus habitantes, pues, como ya he señalado, vivimos en países profundamente desiguales.  
+Ahora bien, la **riqueza** de una región no garantiza necesariamente una mejora en la calidad de vida de la **mayoria** sus habitantes, pues, como ya he señalado, vivimos en países profundamente desiguales.  
 Sin embargo, creo que la innovación y el emprendimiento tecnológico ofrecen una alternativa valiosa no solo para dinamizar la economía, sino también para impulsar procesos sociales que contribuyan a mitigar otras problemáticas estructurales.  
 Promover la **creación de empleo cualificado**, **fortalecer el talento local** y **evitar la fuga de cerebros** son, sin duda, pasos esenciales para construir un desarrollo más equitativo y sostenible en nuestra región.
 
@@ -47,14 +47,17 @@ Siguiendo este enfoque, se hace evidente que muchas de nuestras instituciones de
 
 ---
 
-En este contexto, surge una preocupación central que atraviesa tanto la educación como el desarrollo productivo:  
-**¿Cómo impulsamos la innovación y el emprendimiento tecnológico en nuestra región?**
+En este contexto, surge una preocupación central que es transversal, tanto en la educación, como la investigación y la transferencia de ciencia y tecnologia al sector productivo :  
+**¿Cómo impulsar la innovación y el emprendimiento tecnológico en nuestra región?**
 
-Y aunque con iniciativas personales se intenta brindar el espacio para que haya más interés por parte de los científicos de nuestro país por hacer parte liderando desde la ciencia esta revolución técnica, creo que el paso más valioso es **liderar con el ejemplo**, siendo uno de aquellos que arriesgan en el **emprendimiento tecnológico**.
+Este es un reto estructural, ya que en principio se depende del gobierno para financiar la ciencia, tecnología e innovación. Si miramos el caso colombiano en particular, Colombia esta rezagada en inversión en **I+D** (investigación y desarollo) y **ACTI** (Actividades de Ciencia, Tecnología e Innovación).
+En el año 2023, Colombia invierte en **I+D** el 0.31% del PIB. y en **ACTI** el 1.3% del PIB. En perspectiva, Argentina invierte en **I+D** el 0.6% de su PIB, Brasil el 1.15%, Uruguay con el 0.71% y el promedio regional cerca del 0.67%. Estas cifras son por lo menos inquietantes, y demuestran que aún falta trabajo por parte de las instituciones, para llegar al menos al promedio regional.
+
+Bajo esta idea, y dando por hecho que el trabajo por parte de las instituciones (refiriendome al gobierno y a la universidad pública en particular) no es suficiente, es necesario que haya iniciativas privadas e individuales que articulen, piensen, desarrollen e inviertan en emprendimiento local.
 
 ---
 
-También existen en Colombia **iniciativas inspiradoras** que buscan responder a esta pregunta.  
+Existen en Colombia **iniciativas inspiradoras** que buscan responder a esta pregunta.  
 **Freddy Vega**, con _Platzi_, ha impulsado una plataforma que complementa la educación tradicional y democratiza el acceso al aprendizaje tecnológico.  
 **Los hermanos Bilbao** trabajan en la creación de infraestructura para potenciar el talento local y fomentar la innovación: ([Makers](https://makers.ngo/), [Join Builders](https://join-builders.com/), [NextGen Build](https://nextgen.build/) y [30x](https://30x.org/)).  
 Y una de las propuestas que más me ha llamado la atención es la de **Camilo Gómez**, con _Gurwi_, un emprendimiento que promueve "una nueva forma de aprender": [Gurwi](https://gurwi.com/)
