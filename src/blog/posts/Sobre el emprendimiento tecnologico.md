@@ -4,8 +4,20 @@ title: "Sobre el emprendimiento tecnológico como alternativa al desarrollo soci
 date: 2025-01-08
 
 references:
-  - "Sivers, D. (2011). <em>Anything You Want</em>. Do You Zoom."
-  - '<a href="https://sivers.org" target="_blank">sivers.org</a>'
+  - text: "Uruguay alcanza récord histórico de inversión en I+D"
+    url: "https://www.imffss.org/noticias/uruguay-alcanza-un-record-historico-de-inversion-en-investigacion-y-desarrollo-y-ya-es-uno-de-los-lideres-de-la-region-en-el-area/"
+
+  - text: "Gasto en I+D (% del PIB) — Uruguay (Banco Mundial)"
+    url: "https://datos.bancomundial.org/indicador/GB.XPD.RSDV.GD.ZS?locations=UY"
+
+  - text: "Gasto en I+D (% del PIB) — Región/país (Banco Mundial)"
+    url: "https://datos.bancomundial.org/indicador/GB.XPD.RSDV.GD.ZS?locations=ZJ"
+
+  - text: "Observatorio Colombiano de Ciencia y Tecnología (OCyT)"
+    url: "https://portal.ocyt.org.co/"
+
+  - text: "Índice Nacional de Competitividad 2025 — Consejo Privado de Competitividad"
+    url: "https://compite.com.co/wp-content/uploads/INC-2025_-CTI.pdf"
 ---
 
 Vivimos y crecimos, sobre todo los **latinoamericanos**, en contextos donde prima la **desigualdad social**.  
