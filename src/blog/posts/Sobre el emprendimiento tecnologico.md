@@ -53,7 +53,7 @@ En este contexto, surge una preocupación central que es transversal, tanto en l
 Este es un reto estructural, ya que en principio se depende del gobierno para financiar la ciencia, tecnología e innovación. Si miramos el caso colombiano en particular, Colombia esta rezagada en inversión en **I+D** (investigación y desarollo) y **ACTI** (Actividades de Ciencia, Tecnología e Innovación).
 En el año 2023, Colombia invierte en **I+D** el 0.31% del PIB. y en **ACTI** el 1.3% del PIB. En perspectiva, Argentina invierte en **I+D** el 0.6% de su PIB, Brasil el 1.15%, Uruguay con el 0.71% y el promedio regional cerca del 0.67%. Estas cifras son por lo menos inquietantes, y demuestran que aún falta trabajo por parte de las instituciones, para llegar al menos al promedio regional.
 
-Bajo esta idea, y dando por hecho que el trabajo por parte de las instituciones (refiriendome al gobierno y a la universidad pública en particular) no es suficiente, es necesario que haya iniciativas privadas e individuales que articulen, piensen, desarrollen e inviertan en emprendimiento local.
+Bajo esta idea, y dando por hecho que el trabajo por parte de las instituciones (refiriendome al gobierno y a la universidad pública en particular) no es suficiente, es necesario que haya iniciativas privadas e individuales que se articulen, piensen, desarrollen e inviertan en emprendimiento local.
 
 ---
 

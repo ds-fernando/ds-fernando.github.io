@@ -49,7 +49,7 @@ La mejor manera de ser útil es compartiendo y ayudando con lo que ya sabes o ti
 
 Aunque construyas un excelente producto con las mejores características y tecnologías, no te sorprendas si la gente prefiere otra empresa por su servicio de atención al cliente.
 
-Con la llegada de la inteligencia artificial y la automatización de muchos procesos de servicio al cliente, es fácil olvidar la importancia de la personalización y el contacto humano. Aunque la IA reduce costos y tiempos, es vital mantener el lado humano de nuestras marcas.
+Con la llegada de la inteligencia artificial y la automatización de muchos procesos de servicio al cliente, es fácil olvidar la importancia de la personalización y el contacto humano. Aunque la inteligencia artificial reduce costos y tiempos, es vital mantener el lado humano de nuestras marcas.
 
 ---
 
