@@ -53,7 +53,11 @@
                   <h2 class="title is-5">Referencias</h2>
                   <ul>
                     {% for ref in references %}
-                      <li>{{ ref | safe }}</li>
+                      <li>
+                        <a href="{{ ref.url }}" target="_blank" rel="noopener noreferrer">
+                          {{ ref.text }}
+                        </a>
+                      </li>
                     {% endfor %}
                   </ul>
                 </section>
