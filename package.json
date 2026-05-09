@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx @11ty/eleventy --serve",
     "clean": "rm -rf docs",
-    "build": "eleventy",
+    "build": "npx @11ty/eleventy",
     "deploy": "npm run build && git add . && git commit -m '🚀 Deploy actualizado' && git push origin main",
     "deploy-subdomain": ""
   },
