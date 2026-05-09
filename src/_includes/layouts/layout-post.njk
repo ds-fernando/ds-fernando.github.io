@@ -29,14 +29,17 @@
           <div class="column is-one-quarter">
             {% include "nav_posts.njk" %}
           </div>
-          <main class="column is-8 is-offset-2">
-            <h1 class="title is-size-3">{{ title }}</h1>
-            <p class="has-text-grey">{{ date | date("YYYY-MM-DD") }}</p>
 
-            <div class="content is-medium">
+          <div class="column">
+            <main class="content is-medium" style="max-width: 680px; margin: 0 auto;">
+              <h1 class="title is-3">{{ title }}</h1>
+              <p class="has-text-grey">{{ date | date }}</p>
+
+              <hr>
+
               {{ content | safe }}
-            </div>
-          </main>
+            </main>
+          </div>
         </div>
       </div>
 
