@@ -39,6 +39,23 @@ El poder de **Facebook**, tal y como lo fue su adopción, creció vertiginosamen
 
 ---
 
+A la par, como usuarios, parte de nuestra vida social vivía en **redes sociales**, la popularidad estaba marcada por **"likes"** —que fue una funcionalidad estratégicamente implementada— y la cantidad de amigos que tuvieses.
+Los planes se organizaban por chats, compartíamos fotos de nuestros viajes, conciertos, salidas, etc. Y cada vez cedíamos más espacios de nuestra vida no solo social sino personal a la industria tecnológica.
+En este punto, es alarmantemente posible que plataformas como Facebook te conozcan mejor que tus padres o tus amigos.
+
+---
+
+En la medida que pasábamos más tiempo en pantallas, los problemas empezaron a aparecer: **ciberacoso**, **ansiedad**, **depresión** y **baja autoestima** por comparación constante en redes e idealización de vidas ajenas, exposición a contenido inapropiado, **Grooming**, aislamiento social y, claramente, **dependencia por conexión**.
+
+No tuvieron que pasar muchos años para que estos problemas se hicieran latentes, y es más problemático cuando hacemos un recuento y vemos que, estando todos anonadados, estupefactos y sin conocer los efectos, consecuencias y poder que podían ejercer sobre nosotros la tecnología y las redes sociales, permitimos, en un acto de desconocimiento e ignorancia, que niños y adolescentes tuvieran acceso a internet, en su mayoría sin restricción ni supervisión; sin saberlo, estábamos dando paso a la creación de **adictos**.
+
+---
+
+Cada vez pasamos más y más tiempo en pantallas, gran parte del contenido se consume desde **celulares inteligentes** hasta el punto que es el dispositivo más usado actualmente.
+Con esto, el sueño húmedo de todo transhumanista se vuelve cada vez más tangible. Ahora, el tiempo en pantalla está, en promedio, cerca de las 6 horas diarias, lo que significa, en la mayoría de los casos, que al despertar lo primero que vemos es el celular, al ir al baño lo llevamos con nosotros, a la hora de comer, en clases y en general en casi todos —sino es que en todos— los eventos cotidianos ya no solo somos nosotros, ya no solo somos un individuo, somos nosotros más nuestro celular, el individuo más el aparato tecnológico, no nos pensamos sin él y no pensamos al otro sin el suyo, es casi un atributo de la personalidad.
+
+---
+
 Gracias a la tecnología —o más bien, gracias a sus creadores: CEOs, ingenieros, inversores, etc., que se esfuerzan incansablemente por ganar más y más tiempo de nuestra atención—, en los últimos años hemos generado millones de horas de contenido que consumimos nosotros mismos. La generación de contenido creció de forma exponencial: primero con imágenes, fotos y memes; luego, los ingenieros detrás de las métricas de rendimiento de las aplicaciones se dieron cuenta de que el **contenido en video** "enganchaba" más.
 
 Entonces se dio el auge de los **Youtubers**, luego el de los **influencers**, y los ingenieros iban aprendiendo cada vez más de nuestros patrones de consumo de contenido. El clímax se dio cuando entendieron que el **contenido corto** enganchaba aún más, y volcaron sus estrategias para que sus aplicaciones priorizaran este tipo de contenido.
@@ -51,25 +68,8 @@ Si remontamos la historia, nos daremos cuenta de que las primeras aplicaciones e
 
 ---
 
-A la par, como usuarios, parte de nuestra vida social vivía en **redes sociales**, la popularidad estaba marcada por **"likes"** —que fue una funcionalidad estratégicamente implementada— y la cantidad de amigos que tuvieses.
-Los planes se organizaban por chats, compartíamos fotos de nuestros viajes, conciertos, salidas, etc. Y cada vez cedíamos más espacios de nuestra vida no solo social sino personal a la industria tecnológica.
-En este punto, es alarmantemente posible que plataformas como Facebook te conozcan mejor que tus padres o tus amigos.
-
----
-
 El ciudadano de a pie —nosotros mismos como consumidores, el ciudadano común— no es consciente del poder que se puede acumular cuando muchos usuarios pasan mucho tiempo usando redes sociales o en internet en general. Para muestra, un botón —expresión que quiere decir: "para dar un ejemplo particular"—: en las elecciones presidenciales de 2016 en Estados Unidos, hubo un revuelo gigante.
 El hecho de que ganara **Donald Trump** fue, para muchos, una sorpresa, y es que en gran parte de las encuestas nacionales **Donald Trump** estaba por debajo de su contrincante **Hillary Clinton**; sin embargo, en la madrugada del 9 de noviembre de 2016, matemáticamente **Donald Trump** era el nuevo presidente de los Estados Unidos.
 Ahora, ¿qué fue lo que pasó? ¿Cómo es que un _outlier_ —no un político por naturaleza— pudo ganar contra un Clinton que contaba con respaldo institucional, mucha más experiencia y financiación?
 La respuesta vino algunos años después, y se confirmó que la "magia" estuvo en los **datos**. **Cambridge Analytica** había obtenido los datos de aproximadamente 87 millones de usuarios de **Facebook** sin su consentimiento, para luego construir **perfiles psicológicos** detallados de millones de estadounidenses y, con esa información, diseñar publicidad política **microfocalizada** para influir en su comportamiento electoral.
 ¿Qué quiere decir esto? Que por medio de datos obtenidos de redes sociales, y luego usando publicidad difundida por esas mismas redes sociales, lograron **manipular personas**.
-
----
-
-En la medida que pasábamos más tiempo en pantallas, los problemas empezaron a aparecer: **ciberacoso**, **ansiedad**, **depresión** y **baja autoestima** por comparación constante en redes e idealización de vidas ajenas, exposición a contenido inapropiado, **Grooming**, aislamiento social y, claramente, **dependencia por conexión**.
-
-No tuvieron que pasar muchos años para que estos problemas se hicieran latentes, y es más problemático cuando hacemos un recuento y vemos que, estando todos anonadados, estupefactos y sin conocer los efectos, consecuencias y poder que podían ejercer sobre nosotros la tecnología y las redes sociales, permitimos, en un acto de desconocimiento e ignorancia, que niños y adolescentes tuvieran acceso a internet, en su mayoría sin restricción ni supervisión; sin saberlo, estábamos dando paso a la creación de **adictos**.
-
----
-
-Cada vez pasamos más y más tiempo en pantallas, gran parte del contenido se consume desde **celulares inteligentes** hasta el punto que es el dispositivo más usado actualmente.
-Con esto, el sueño húmedo de todo transhumanista se vuelve cada vez más tangible. Ahora, el tiempo en pantalla está, en promedio, cerca de las 6 horas diarias, lo que significa, en la mayoría de los casos, que al despertar lo primero que vemos es el celular, al ir al baño lo llevamos con nosotros, a la hora de comer, en clases y en general en casi todos —sino es que en todos— los eventos cotidianos ya no solo somos nosotros, ya no solo somos un individuo, somos nosotros más nuestro celular, el individuo más el aparato tecnológico, no nos pensamos sin él y no pensamos al otro sin el suyo, es casi un atributo de la personalidad.
