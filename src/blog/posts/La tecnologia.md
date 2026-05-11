@@ -39,8 +39,29 @@ El poder de **Facebook**, tal y como lo fue su adopción, creció vertiginosamen
 
 ---
 
+Gracias a la tecnología —o más bien, gracias a sus creadores: CEOs, ingenieros, inversores, etc., que se esfuerzan incansablemente por ganar más y más tiempo de nuestra atención—, en los últimos años hemos generado millones de horas de contenido que consumimos nosotros mismos. La generación de contenido creció de forma exponencial: primero con imágenes, fotos y memes; luego, los ingenieros detrás de las métricas de rendimiento de las aplicaciones se dieron cuenta de que el **contenido en video** "enganchaba" más.
+
+Entonces se dio el auge de los **Youtubers**, luego el de los **influencers**, y los ingenieros iban aprendiendo cada vez más de nuestros patrones de consumo de contenido. El clímax se dio cuando entendieron que el **contenido corto** enganchaba aún más, y volcaron sus estrategias para que sus aplicaciones priorizaran este tipo de contenido.
+
+---
+
+Pasamos de ver videos en YouTube de tal vez 10 minutos, con un guión y una preparación —así fuese para entretener—; sin embargo, ya había vestigios de lo que se avecinaba: con el auge del entretenimiento, el contenido estúpido y superficial se fue haciendo cada vez más popular. Para cuando empezó la era de los videos cortos, de menos de un minuto, nuestra atención ya estaba lo suficientemente minada como para aceptarlo con naturalidad. El consumo de contenido se convirtió en un acto compulsivo y, por supuesto, creamos un concepto para describir esta acción: **"scrolling"**.
+
+Si remontamos la historia, nos daremos cuenta de que las primeras aplicaciones en implementar este patrón fueron, en primer lugar, la extinta **Vine** (2013); luego **Musical.ly** (2014), que daría origen al monstruoso **TikTok** (2017). Es obvio que **Facebook** no se quedaría atrás, implementando los **Instagram Reels** (2020).
+
+---
+
 A la par, como usuarios, parte de nuestra vida social vivía en **redes sociales**, la popularidad estaba marcada por **"likes"** —que fue una funcionalidad estratégicamente implementada— y la cantidad de amigos que tuvieses.
 Los planes se organizaban por chats, compartíamos fotos de nuestros viajes, conciertos, salidas, etc. Y cada vez cedíamos más espacios de nuestra vida no solo social sino personal a la industria tecnológica.
+En este punto, es alarmantemente posible que plataformas como Facebook te conozcan mejor que tus padres o tus amigos.
+
+---
+
+El ciudadano de a pie —nosotros mismos como consumidores, el ciudadano común— no es consciente del poder que se puede acumular cuando muchos usuarios pasan mucho tiempo usando redes sociales o en internet en general. Para muestra, un botón —expresión que quiere decir: "para dar un ejemplo particular"—: en las elecciones presidenciales de 2016 en Estados Unidos, hubo un revuelo gigante.
+El hecho de que ganara **Donald Trump** fue, para muchos, una sorpresa, y es que en gran parte de las encuestas nacionales **Donald Trump** estaba por debajo de su contrincante **Hillary Clinton**; sin embargo, en la madrugada del 9 de noviembre de 2016, matemáticamente **Donald Trump** era el nuevo presidente de los Estados Unidos.
+Ahora, ¿qué fue lo que pasó? ¿Cómo es que un _outlier_ —no un político por naturaleza— pudo ganar contra un Clinton que contaba con respaldo institucional, mucha más experiencia y financiación?
+La respuesta vino algunos años después, y se confirmó que la "magia" estuvo en los **datos**. **Cambridge Analytica** había obtenido los datos de aproximadamente 87 millones de usuarios de **Facebook** sin su consentimiento, para luego construir **perfiles psicológicos** detallados de millones de estadounidenses y, con esa información, diseñar publicidad política **microfocalizada** para influir en su comportamiento electoral.
+¿Qué quiere decir esto? Que por medio de datos obtenidos de redes sociales, y luego usando publicidad difundida por esas mismas redes sociales, lograron **manipular personas**.
 
 ---
 

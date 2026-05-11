@@ -4,7 +4,7 @@ title: "El poder de lo esencial en los negocios"
 date: 2025-01-09
 references:
   - text: "Sivers, D. — Anything You Want"
-    url: "https://sivers.org/book/anything-you-want"
+    url: "https://sive.rs/a"
   - text: "CD Baby en Wikipedia"
     url: "https://en.wikipedia.org/wiki/CD_Baby"
 ---
