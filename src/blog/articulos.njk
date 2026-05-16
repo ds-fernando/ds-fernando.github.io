@@ -2,18 +2,14 @@
 layout: layouts/layout-articles.njk
 title: Artículos 
 ---
-<h1 class="is-size-2">{{title}}</h1>
+<h1 class="is-size-2">
+  {{title}}</h1>
+
 <ul class="article-list">
   {% for post in collections.allPosts %}
     <li style="--i: {{ loop.index }}">
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      {% if post.data.tags %}
-        <div class="tags" style="margin-top: 0.25rem;">
-          {% for tag in post.data.tags %}
-            <span class="tag is-light is-small">{{ tag }}</span>
-          {% endfor %}
-        </div>
-      {% endif %}
+      <a href="{{ post.url | url }}">
+        {{ post.data.title }}</a>
     </li>
   {% else %}
     <li>No hay artículos recientes disponibles.</li>
