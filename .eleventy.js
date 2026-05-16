@@ -1,5 +1,6 @@
 const { execSync } = require("child_process");
 const markdownIt = require("markdown-it");
+let slugMap = {};
 
 module.exports = function (eleventyConfig) {
   // Copiar archivos CSS y JS al directorio de salida
@@ -29,21 +30,17 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("allPosts", function (collectionApi) {
-    return collectionApi
+    const posts = collectionApi
       .getFilteredByGlob("src/blog/posts/**/*.md")
-      .sort((a, b) => new Date(b.date) - new Date(a.date)); // Solo ordenar por fecha sin limitar
-  });
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  eleventyConfig.addCollection("slugMap", function (collectionApi) {
-    const map = {};
-    collectionApi
-      .getFilteredByGlob("src/blog/posts/**/*.md")
-      .forEach((post) => {
-        if (post.data.slug) {
-          map[post.data.slug] = post.data.title;
-        }
-      });
-    return map;
+    posts.forEach((post) => {
+      if (post.data.slug) {
+        slugMap[post.data.slug] = post.data.title;
+      }
+    });
+
+    return posts;
   });
 
   eleventyConfig.setBrowserSyncConfig({
@@ -57,9 +54,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addTransform("wikilinks", function (content, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
-      const slugMap = this.inputPath
-        ? this.inputData?.collections?.slugMap || {}
-        : {};
       return content.replace(/\[\[([\w-]+)\]\]/g, (match, slug) => {
         const title = slugMap[slug] || slug;
         return `<a href="/blog/posts/${slug}/">${title}</a>`;
