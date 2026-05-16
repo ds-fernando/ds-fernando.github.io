@@ -2,6 +2,12 @@
 layout: layouts/layout-post.njk
 title: "Lo que la industria Tecnológica nos ha dejado"
 date: 2026-05-10
+slug: "hiperconexion-y-redes-sociales"
+tags:
+  - tecnologia
+  - redes-sociales
+  - sociedad
+  - atencion
 references:
 ---
 

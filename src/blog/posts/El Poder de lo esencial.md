@@ -2,6 +2,11 @@
 layout: layouts/layout-post.njk
 title: "El poder de lo esencial en los negocios"
 date: 2025-01-09
+slug: "esencialismo-en-negocios"
+tags:
+  - negocios
+  - estrategia
+  - libros
 references:
   - text: "Sivers, D. — Anything You Want"
     url: "https://sive.rs/a"

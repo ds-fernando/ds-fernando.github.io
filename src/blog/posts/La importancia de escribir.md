@@ -1,6 +1,12 @@
 ---
 layout: layouts/layout-post.njk
 title: "Sobre la importancia de escribir"
+slug: "importancia-de-escribir"
+tags:
+  - escritura
+  - atencion
+  - sociedad
+  - pensamiento
 date: 2025-01-06
 ---
 

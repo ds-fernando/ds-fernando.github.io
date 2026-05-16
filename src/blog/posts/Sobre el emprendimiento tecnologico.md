@@ -2,7 +2,12 @@
 layout: layouts/layout-post.njk
 title: "Sobre el emprendimiento tecnológico como alternativa al desarrollo social"
 date: 2025-01-08
-
+slug: "tecnologia-y-desigualdad-latinoamerica"
+tags:
+  - latinoamerica
+  - tecnologia
+  - emprendimiento
+  - desigualdad
 references:
   - text: "Uruguay alcanza récord histórico de inversión en I+D"
     url: "https://www.imffss.org/noticias/uruguay-alcanza-un-record-historico-de-inversion-en-investigacion-y-desarrollo-y-ya-es-uno-de-los-lideres-de-la-region-en-el-area/"

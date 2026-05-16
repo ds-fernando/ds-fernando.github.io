@@ -1,6 +1,12 @@
 ---
 layout: layouts/layout-post.njk
 title: "Descubriendo el TDA: Datos Con forma"
+slug: "analisis-topologico-de-datos"
+tags:
+  - matematicas
+  - datos
+  - topologia
+  - ciencia
 date: 2025-01-07
 ---
 
