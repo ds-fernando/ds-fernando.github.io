@@ -3,6 +3,7 @@ layout: layouts/layout-post.njk
 title: "Sobre el emprendimiento tecnológico como alternativa al desarrollo social"
 date: 2025-01-08
 slug: "tecnologia-y-desigualdad-latinoamerica"
+permalink: /blog/posts/tecnologia-y-desigualdad-latinoamerica/index.html
 tags:
   - latinoamerica
   - tecnologia

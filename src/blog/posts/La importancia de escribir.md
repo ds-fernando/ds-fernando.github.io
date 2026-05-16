@@ -2,6 +2,8 @@
 layout: layouts/layout-post.njk
 title: "Sobre la importancia de escribir"
 slug: "importancia-de-escribir"
+permalink: /blog/posts/importancia-de-escribir/index.html
+
 tags:
   - escritura
   - atencion

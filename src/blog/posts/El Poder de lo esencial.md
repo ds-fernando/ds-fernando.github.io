@@ -3,6 +3,8 @@ layout: layouts/layout-post.njk
 title: "El poder de lo esencial en los negocios"
 date: 2025-01-09
 slug: "esencialismo-en-negocios"
+permalink: /blog/posts/esencialismo-en-negocios/index.html
+
 tags:
   - negocios
   - estrategia

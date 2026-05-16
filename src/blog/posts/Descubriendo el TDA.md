@@ -2,6 +2,8 @@
 layout: layouts/layout-post.njk
 title: "Descubriendo el TDA: Datos Con forma"
 slug: "analisis-topologico-de-datos"
+permalink: /blog/posts/analisis-topologico-de-datos/index.html
+
 tags:
   - matematicas
   - datos
