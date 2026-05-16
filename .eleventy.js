@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
     if (outputPath && outputPath.endsWith(".html")) {
       const allPosts = eleventyConfig.collections?.allPosts || [];
       return content.replace(/\[\[([\w-]+)\]\]/g, (match, slug) => {
-        return `<a href="/${slug}/">${slug}</a>`;
+        return `<a href="/blog/posts/${slug}/">${slug}</a>`;
       });
     }
     return content;
