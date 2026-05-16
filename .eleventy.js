@@ -34,6 +34,18 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => new Date(b.date) - new Date(a.date)); // Solo ordenar por fecha sin limitar
   });
 
+  eleventyConfig.addCollection("slugMap", function (collectionApi) {
+    const map = {};
+    collectionApi
+      .getFilteredByGlob("src/blog/posts/**/*.md")
+      .forEach((post) => {
+        if (post.data.slug) {
+          map[post.data.slug] = post.data.title;
+        }
+      });
+    return map;
+  });
+
   eleventyConfig.setBrowserSyncConfig({
     server: {
       baseDir: "docs",
@@ -42,15 +54,20 @@ module.exports = function (eleventyConfig) {
       extensions: ["html"], // Habilitar rutas limpias
     },
   });
+
   eleventyConfig.addTransform("wikilinks", function (content, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
-      const allPosts = eleventyConfig.collections?.allPosts || [];
+      const slugMap = this.inputPath
+        ? this.inputData?.collections?.slugMap || {}
+        : {};
       return content.replace(/\[\[([\w-]+)\]\]/g, (match, slug) => {
-        return `<a href="/blog/posts/${slug}/">${slug}</a>`;
+        const title = slugMap[slug] || slug;
+        return `<a href="/blog/posts/${slug}/">${title}</a>`;
       });
     }
     return content;
   });
+
   return {
     dir: {
       input: "src",
