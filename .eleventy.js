@@ -1,7 +1,6 @@
 const { execSync } = require("child_process");
 const markdownIt = require("markdown-it");
 
-const { execSync } = require("child_process"); // ← aquí arriba
 module.exports = function (eleventyConfig) {
   // Copiar archivos CSS y JS al directorio de salida
   eleventyConfig.addPassthroughCopy("src/css/.");
