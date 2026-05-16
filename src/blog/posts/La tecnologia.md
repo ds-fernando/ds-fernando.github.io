@@ -26,7 +26,7 @@ Para 2009, y tan solo 5 años después de su creación y 3 años después de su 
 
 ---
 
-> Es importante mencionar que a la par de **Facebook**, se creó **YouTube**, aunque en un inicio no tuvo la misma adopción.
+> Es importante mencionar que, a la par de Facebook, surgió YouTube, aunque con una dinámica de adopción distinta, centrada en el consumo de contenido más que en la interacción social.
 
 ---
 
@@ -68,7 +68,7 @@ Si remontamos la historia, nos daremos cuenta de que las primeras aplicaciones e
 
 ---
 
-El ciudadano de a pie —nosotros mismos como consumidores, el ciudadano común— no es consciente del poder que se puede acumular cuando muchos usuarios pasan mucho tiempo usando redes sociales o en internet en general. Para muestra, un botón —expresión que quiere decir: "para dar un ejemplo particular"—: en las elecciones presidenciales de 2016 en Estados Unidos, hubo un revuelo gigante.
+El ciudadano de a pie no es consciente del poder que se puede acumular cuando muchos usuarios pasan mucho tiempo usando redes sociales o en internet en general. Para muestra, un botón —expresión que quiere decir: "para dar un ejemplo particular"—: en las elecciones presidenciales de 2016 en Estados Unidos, hubo un revuelo gigante.
 El hecho de que ganara **Donald Trump** fue, para muchos, una sorpresa, y es que en gran parte de las encuestas nacionales **Donald Trump** estaba por debajo de su contrincante **Hillary Clinton**; sin embargo, en la madrugada del 9 de noviembre de 2016, matemáticamente **Donald Trump** era el nuevo presidente de los Estados Unidos.
 Ahora, ¿qué fue lo que pasó? ¿Cómo es que un _outlier_ —no un político por naturaleza— pudo ganar contra un Clinton que contaba con respaldo institucional, mucha más experiencia y financiación?
 La respuesta vino algunos años después, y se confirmó que la "magia" estuvo en los **datos**. **Cambridge Analytica** había obtenido los datos de aproximadamente 87 millones de usuarios de **Facebook** sin su consentimiento, para luego construir **perfiles psicológicos** detallados de millones de estadounidenses y, con esa información, diseñar publicidad política **microfocalizada** para influir en su comportamiento electoral.

@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi
       .getFilteredByGlob("src/blog/posts/**/*.md")
       .sort((a, b) => new Date(b.date) - new Date(a.date)) // Ordenar por fecha
-      .slice(0, 3); // Seleccionar solo los primeros 3
+      .slice(0, 4); // Seleccionar solo los primeros 3
   });
 
   eleventyConfig.addCollection("allPosts", function (collectionApi) {
