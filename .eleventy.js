@@ -1,3 +1,6 @@
+const { execSync } = require("child_process");
+const markdownIt = require("markdown-it");
+
 const { execSync } = require("child_process"); // ← aquí arriba
 module.exports = function (eleventyConfig) {
   // Copiar archivos CSS y JS al directorio de salida
@@ -40,7 +43,15 @@ module.exports = function (eleventyConfig) {
       extensions: ["html"], // Habilitar rutas limpias
     },
   });
-
+  eleventyConfig.addTransform("wikilinks", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith(".html")) {
+      const allPosts = eleventyConfig.collections?.allPosts || [];
+      return content.replace(/\[\[([\w-]+)\]\]/g, (match, slug) => {
+        return `<a href="/${slug}/">${slug}</a>`;
+      });
+    }
+    return content;
+  });
   return {
     dir: {
       input: "src",
