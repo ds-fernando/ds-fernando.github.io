@@ -1,6 +1,14 @@
 const { execSync } = require("child_process");
 const markdownIt = require("markdown-it");
 let slugMap = {};
+const fs = require("fs");
+const markdownItLib = require("markdown-it")({
+  html: true,
+  linkify: true,
+  typographer: true,
+});
+
+markdownItLib.disable("link");
 
 module.exports = function (eleventyConfig) {
   // Copiar archivos CSS y JS al directorio de salida
@@ -61,6 +69,34 @@ module.exports = function (eleventyConfig) {
     }
     return content;
   });
+
+  const fs = require("fs");
+
+  eleventyConfig.addCollection("graphData", function (collectionApi) {
+    const posts = collectionApi.getFilteredByGlob("src/blog/posts/**/*.md");
+
+    const nodes = posts.map((post) => ({
+      id: post.data.slug,
+      label: post.data.title,
+      url: post.url,
+    }));
+
+    const links = [];
+    posts.forEach((post) => {
+      const content = fs.readFileSync(post.inputPath, "utf-8");
+      const wikilinks = [...content.matchAll(/\[\[([\w-]+)\]\]/g)];
+      wikilinks.forEach((match) => {
+        links.push({
+          source: post.data.slug,
+          target: match[1],
+        });
+      });
+    });
+
+    return { nodes, links };
+  });
+
+  eleventyConfig.setLibrary("md", markdownItLib);
 
   return {
     dir: {

@@ -19,7 +19,7 @@ Primero fue la llegada del computador donde, por distintos aspectos, como la bar
 Sin embargo, a diferencia del tiempo de adopción de otras tecnologías como el radio, la TV o el computador, la adopción de los **celulares inteligentes** fue masiva y rápida.
 Tiene sentido, ya que había un esfuerzo conjunto de toda una industria, entre empresas, ingenieros y entusiastas para ganar la batalla de construir el mejor **smartphone**, la cual, al parecer, fue ganada por **iPhone**.
 
----
+Como mencione en [[analisis-topologico-de-datos]] los datos tienen forma.
 
 El primer **iPhone** salió al mercado en el año 2007, sin embargo para este año ya había una industria y una comunidad fuertemente establecida en el escenario tecnológico, y con ello me refiero a la comunidad **Gamer** y la industria de **video juegos**. Y aunque los video juegos ya tenían una trayectoria de años, fue luego de los 2000's que llegaron juegos como Half-Life, GTA, Counter-Strike, Los Sims y World of Warcraft.
 
