@@ -24,7 +24,7 @@ que comparaba la programación con la alfabetización de nuestro siglo: tuvo un 
 Al ingresar a la Escuela de Matemáticas de la UPTC, encontré una formación rigurosa en matemáticas puras, como corresponde:
 una escuela que prepara matemáticos capaces de enfrentar problemas complejos con bases sólidas.
 Pero también descubrí oportunidades por explorar: proyectos y tesis aplicadas existían, pero su difusión y alcance eran limitados,
-y eso dificultaba que más estudiantes se acercaran al emprendimiento tecnológico y al liderazgo desde lo técnico, o incluso a algo tan sencillo —pero fundamental— como descubrir que la vida profesional de un matemático no está limitada a la docencia —he explorado esta idea con más profundidad en [[tecnologia-y-desigualdad-latinoamerica]]—..
+y eso dificultaba que más estudiantes se acercaran al emprendimiento tecnológico y al liderazgo desde lo técnico, o incluso a algo tan sencillo —pero fundamental— como descubrir que la vida profesional de un matemático no está limitada a la docencia —he explorado esta idea con más profundidad en [[que-hace-un-matematico]]—
 La prioridad excesiva en lo teórico, aunque necesaria, dejaba un vacío en quienes querían usar la ciencia para resolver problemas reales
 con herramientas actuales: programación, ciencia de datos e inteligencia artificial.
 
