@@ -56,7 +56,7 @@ El proyecto está abandonado. Y está bien que así sea por ahora.
 
 Lo que no abandoné es la visión. Con el tiempo ha mutado: ya no se trata de enseñar a programar ni de armar talleres,
 sino de algo más estructural — vincular problemas reales de la industria con iniciativas estudiantiles,
-impulsar emprendimientos con base tecnológica — una apuesta que, como exploré en [[tecnologia-y-desigualdad-latinoamerica]]—, puede ser una forma concreta de reducir desigualdades en nuestra región., y construir una comunidad que repiense críticamente la tecnología:
+impulsar emprendimientos con base tecnológica, puede ser una forma concreta de reducir desigualdades en nuestra región — una apuesta que exploré en [[tecnologia-y-desigualdad-latinoamerica]]—, y construir una comunidad que repiense críticamente la tecnología:
 científicos, filósofos, ingenieros, sociólogos reuniéndose a leer, pensar, escribir y criticar.
 
 Pero antes de intentar construir eso de nuevo, quiero construirme a mí mismo.
