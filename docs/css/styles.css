@@ -1,3 +1,27 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --border-color: #e0e0e0;
+  --subtle-color: #999999;
+  --header-bg: #ffffff;
+  --menu-bg: #ffffff;
+  --quote-bg: #f9f9f9;
+  --story-bg: #fffbe6;
+  --story-final-bg: #f5f5f5;
+}
+
+body.dark {
+  --bg-color: #1a1a1a;
+  --text-color: #d4d4d4;
+  --border-color: #333333;
+  --subtle-color: #777777;
+  --header-bg: #1a1a1a;
+  --menu-bg: #242424;
+  --quote-bg: #242424;
+  --story-bg: #2a2510;
+  --story-final-bg: #222222;
+}
+
 /* ========================================
    Estilos generales
    ======================================== */
@@ -6,6 +30,11 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 /* ========================================
@@ -26,7 +55,8 @@ main {
      ======================================== */
 .main-header {
   height: 100px;
-  background-color: white;
+  background-color: var(--header-bg);
+  transition: background-color 0.3s ease;
 }
 
 .header-with-button {
@@ -77,7 +107,8 @@ main {
   width: 25px;
   height: 3px;
   margin: 5px 0;
-  background-color: #333;
+  background-color: var(--text-color);
+  transition: background-color 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -91,10 +122,12 @@ main {
     right: 0;
     height: 100%;
     width: 300px;
-    background-color: #fff;
+    background-color: var(--menu-bg);
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
     transform: translateX(100%);
-    transition: transform 0.5s ease-in-out;
+    transition:
+      transform 0.5s ease-in-out,
+      background-color 0.3s ease;
   }
 
   .menu-list.show {
@@ -107,7 +140,7 @@ main {
     right: 20px;
     font-size: 30px;
     cursor: pointer;
-    color: #333;
+    color: var(--text-color);
   }
 
   .menu-list .close-btn {
@@ -127,6 +160,8 @@ main {
   padding: 10px 20px;
   display: block;
   text-align: left;
+  color: var(--text-color);
+  transition: color 0.3s ease;
 }
 
 .menu-list {
@@ -144,19 +179,19 @@ main {
 
 /* Estilos para el botón de hamburguesa cuando está abierto */
 .menu-toggle.open .hamburger:nth-child(1) {
-  transform: rotate(45deg); /* Primera barra en ángulo */
+  transform: rotate(45deg);
   position: absolute;
-  top: 0px; /* Ajusta la posición para que esté alineada correctamente */
+  top: 0px;
 }
 
 .menu-toggle.open .hamburger:nth-child(2) {
-  opacity: 0; /* Desaparece la barra del medio */
+  opacity: 0;
 }
 
 .menu-toggle.open .hamburger:nth-child(3) {
-  transform: rotate(-45deg); /* Tercera barra en ángulo */
+  transform: rotate(-45deg);
   position: absolute;
-  top: -1px; /* Ajusta la posición para que esté alineada correctamente */
+  top: -1px;
 }
 
 /* ========================================
@@ -165,7 +200,7 @@ main {
 p {
   font-size: 20px;
   line-height: 1.7;
-  color: black !important;
+  color: var(--text-color) !important;
 }
 
 /* ========================================
@@ -188,11 +223,12 @@ p {
 
 .article-list li {
   padding: 10px 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--border-color);
   opacity: 0;
   transform: translateY(10px);
   animation: fadeIn 0.5s ease-in-out forwards;
   animation-delay: calc(0.1s * var(--i));
+  transition: border-color 0.3s ease;
 }
 
 .article-list li:last-child {
@@ -201,8 +237,9 @@ p {
 
 .article-list a {
   text-decoration: none;
-  color: #333;
+  color: var(--text-color);
   font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
 
 .article-list a:hover {
@@ -232,12 +269,14 @@ p {
 
 .title-project {
   font-size: 1.4rem;
-  color: #333;
+  color: var(--text-color);
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 10px;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .title-project:hover {
@@ -252,12 +291,13 @@ p {
 .description-project {
   font-size: 1.1rem;
   margin-left: 20px;
-  color: #777 !important;
+  color: var(--subtle-color) !important;
   font-style: italic;
+  transition: color 0.3s ease;
 }
 
 .project-item:hover .description-project {
-  color: #444 !important;
+  color: var(--text-color) !important;
 }
 
 /* Estilo base para los enlaces sociales del index */
@@ -268,7 +308,7 @@ p {
 
 .social-link:hover {
   text-decoration: underline;
-  color: #333;
+  color: var(--text-color);
 }
 
 .underline-on-hover:hover {
@@ -278,54 +318,82 @@ p {
 /* Fechas de artículos */
 .has-text-grey {
   font-size: 0.9rem;
-  color: #6c757d;
+  color: var(--subtle-color);
 }
 
 footer {
   width: 100%;
-  text-align: center; /* Centra el contenido del footer */
-  padding: 20px 0; /* Espaciado superior e inferior */
+  text-align: center;
+  padding: 20px 0;
+  color: var(--subtle-color);
+  transition: color 0.3s ease;
 }
 
 .highlighted-quote {
-  background: #f9f9f9; /* Color de fondo claro */
-  border-left: 4px solid #007bff; /* Línea azul a la izquierda */
+  background: var(--quote-bg);
+  border-left: 4px solid #007bff;
   padding: 15px;
   font-style: italic;
-  color: #333;
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
+
 .personal-story {
-  background: #fffbe6; /* Fondo amarillo suave */
-  border-left: 4px solid #f4c542; /* Línea amarilla para resaltar historia personal */
+  background: var(--story-bg);
+  border-left: 4px solid #f4c542;
   padding: 15px;
   font-style: normal;
-  color: #444;
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .highlighted-link {
   text-decoration: underline;
   font-weight: bold;
-  color: #0275d8; /* Un azul llamativo */
+  color: #0275d8;
 }
 
 .lista-ajustada {
   font-size: 1.25rem !important;
   line-height: 1.5;
   margin-top: 0.5em;
-  padding-left: 1.5em; /* Espacio para los puntos */
-  list-style-type: disc !important; /* Asegura que los puntos sean visibles */
-  list-style-position: outside !important; /* Asegura que los puntos estén fuera del texto */
+  padding-left: 1.5em;
+  list-style-type: disc !important;
+  list-style-position: outside !important;
 }
 
 .lista-ajustada li {
   font-size: inherit !important;
-  display: list-item !important; /* Asegura que los elementos sean tratados como ítems de lista */
+  display: list-item !important;
 }
 
 .personal-story-final {
-  background-color: #f5f5f5; /* Color de fondo suave */
-  border-left: 5px solid #0077b6; /* Borde lateral llamativo */
+  background-color: var(--story-final-bg);
+  border-left: 5px solid #0077b6;
   padding: 15px;
   font-style: italic;
   margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+/* ========================================
+     Botón dark mode
+     ======================================== */
+.dark-mode-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: opacity 0.2s ease;
+  line-height: 1;
+}
+
+.dark-mode-btn:hover {
+  opacity: 0.7;
 }

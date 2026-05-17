@@ -30,8 +30,6 @@ Vivimos y crecimos, sobre todo los **latinoamericanos**, en contextos donde prim
 La falta de acceso a empleo se ha vuelto la norma y, por ende, las condiciones de vida en muchas zonas de nuestra región se ven profundamente afectadas.  
 Esto, junto con el hecho de que en varias partes de nuestra región el conflicto armado —ya sea con guerrillas, grupos paramilitares, narcotraficantes o pandillas (o todos al tiempo)— es la cotidianidad para muchos.
 
-Como mencione en [[esencialismo-en-negocios]] lo importante es lo esencial.
-
 La **desigualdad social**, la **pobreza**, el **narcotráfico** y el **conflicto interno** son problemáticas que acarreamos desde hace muchas decadas como región, y aunque en las últimas décadas ha habido avances específicos contra el narco y el conflicto armado, aun así seguimos siendo una de las regiones con mayor corrupción, desigualdad social y pobreza del mundo.
 
 Uno de los argumentos que se da, en desconocimiento de la realidad, es la falta de acceso a la educación o la educación de baja calidad.
