@@ -397,3 +397,48 @@ footer {
 .dark-mode-btn:hover {
   opacity: 0.7;
 }
+
+/* Dark mode - fondo completo */
+body.dark .container,
+body.dark .layout,
+body.dark .columns,
+body.dark .column,
+body.dark main,
+body.dark .content {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Dark mode - blockquotes */
+body.dark blockquote {
+  background-color: #242424;
+  border-left-color: #555;
+  color: var(--text-color);
+}
+
+/* Dark mode - Bulma overrides */
+body.dark .title,
+body.dark .subtitle,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4 {
+  color: var(--text-color) !important;
+}
+
+body.dark hr {
+  background-color: var(--border-color);
+}
+
+/* Botón dark mode - posición */
+.dark-mode-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  font-size: 1.3rem;
+  padding: 8px 10px;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+}
