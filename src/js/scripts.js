@@ -20,6 +20,7 @@ const toggle = document.getElementById("dark-mode-toggle");
 
 const applyTheme = (dark) => {
   document.body.classList.toggle("dark", dark);
+  document.documentElement.classList.toggle("dark", dark);
   if (toggle) toggle.textContent = dark ? "☀️" : "🌙";
 };
 
