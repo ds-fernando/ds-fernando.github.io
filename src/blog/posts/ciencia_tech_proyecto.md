@@ -43,7 +43,7 @@ donde estudiantes conectan con posgraduados y reciben mentoría personalizada, y
 Pre-Icfes Popular en un barrio de Tunja, pude observar de primera mano cómo la educación puede impactar directamente a la comunidad.
 Estas experiencias reforzaron mi convicción: la teoría es base, pero solo se transforma en valor cuando se comparte y se aplica.
 
-Durante mi periodo como representante estudiantil, intenté dar forma a **Ciencia, Tecnología y Sociedad (CTS)**,
+Durante mi periodo como representante estudiantil -Finales del 2024 a inicios del 2026-, intenté dar forma a **Ciencia, Tecnología y Sociedad (CTS)**,
 un proyecto que buscaba conectar a estudiantes con líderes y mentores, promoviendo aprendizaje aplicado y desarrollo de soluciones para nuestra región.
 La visión era clara. La ejecución fue otra historia.
 
