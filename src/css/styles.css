@@ -442,3 +442,39 @@ body.dark hr {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   z-index: 9999;
 }
+
+/* Dark mode - ancho completo */
+body.dark {
+  background-color: var(--bg-color);
+}
+
+body.dark .container {
+  background-color: var(--bg-color);
+}
+
+/* Dark mode - Bulma columns y helpers */
+body.dark .columns,
+body.dark .column,
+body.dark main,
+body.dark .content,
+body.dark section {
+  background-color: var(--bg-color) !important;
+}
+
+/* Dark mode - negritas y strong */
+body.dark strong,
+body.dark b {
+  color: #e8e8e8 !important;
+}
+
+/* Dark mode - footer */
+body.dark footer,
+body.dark hr {
+  background-color: var(--bg-color);
+  border-color: var(--border-color);
+}
+
+/* Dark mode - Bulma overrides adicionales */
+body.dark .has-text-grey {
+  color: var(--subtle-color) !important;
+}
